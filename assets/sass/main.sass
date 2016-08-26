@@ -1,0 +1,184 @@
+@import "bootstrap"
+@import "lightslider"
+@import "https://fonts.googleapis.com/css?family=Prompt:100,300,400,700,900"
+
+
+$thin: 100
+$light: 300
+$regular: 400
+$bold: 700
+$black: 900
+
+
+.thin
+	font-weight: $thin
+.light
+	font-weight: $light
+.regular
+	font-weight: $regular
+.bold
+	font-weight: $bold
+.black
+	font-weight: $black
+
+img
+	width: 100%
+
+#lightSlider1
+	img
+		width: auto
+
+a, a:hover, a:visited
+	color: #0b1629
+	text-decoration: none
+
+.btn1
+	background: url('../img/middle-bg.png') center no-repeat
+	background-size: cover
+	padding: 10px
+	color: #C4B79A
+	.wrapper
+		border: 3px solid #C4B79A
+		text-align: center
+		padding: 10px
+		font-size: 35px
+.btn2
+	background: #C4B79A
+	background-size: cover
+	padding: 10px
+	.wrapper
+		border: 3px solid #000000
+		text-align: center
+		padding: 20px
+.btn3
+	background: #fff
+	background-size: cover
+	padding: 10px
+	.wrapper
+		border: 3px solid #000000
+		text-align: center
+		padding: 20px
+
+.social
+	text-align: center
+	.fa
+		font-size: 40px
+
+body
+	color: #0b1629
+	font-family: 'Prompt', sans-serif
+	#top
+		.row
+			background: #C4B79A
+			padding: 10px
+		font-size: 14px
+	#menu
+		.row
+			background: url('../img/middle-bg.png') center no-repeat
+			background-size: cover
+			.fa
+				color: #C4B79A
+	#schedule
+		h1
+			font-weight: $black
+			text-align: center
+		ul
+			li
+				h3, h6
+					text-align: center
+					margin-left: 30px
+				img
+					display: block
+					margin-left: auto
+					margin-right: auto
+				.bgodd
+					color: #0F1628
+					width: 300px
+					height: 150px
+					background-color: #C4B79A
+					position: relative
+					display: inline-block
+					margin-right: 2.2%
+					&:before
+						content: ""
+						position: absolute
+						top: 0
+						left: 0
+						width: 0
+						height: 0
+						border-top: 70px solid transparent
+						border-left: 30px solid #fff
+						border-bottom: 80px solid transparent 
+					&:after
+						content: ""
+						position: absolute
+						width: 0
+						height: 0
+						right: -30px
+						top: 0
+						border-top: 70px solid transparent
+						border-left: 30px solid #C4B79A
+						border-bottom: 80px solid transparent
+				.bgeven
+					color: #fff
+					width: 300px
+					height: 150px
+					background-color: #0F1628
+					position: relative
+					display: inline-block
+					margin-right: 2.2%
+					&:before
+						content: ""
+						position: absolute
+						top: 0
+						left: 0
+						width: 0
+						height: 0
+						border-top: 70px solid transparent
+						border-left: 30px solid #fff
+						border-bottom: 80px solid transparent 
+					&:after
+						content: ""
+						position: absolute
+						width: 0
+						height: 0
+						right: -30px
+						top: 0
+						border-top: 70px solid transparent
+						border-left: 30px solid #0F1628
+						border-bottom: 80px solid transparent
+		.btn3
+			max-width: 280px
+	#story
+		.row
+			background: #8A8891
+			padding: 20px 0
+			h1
+				font-weight: $black
+			.btn3
+				background: none
+				max-width: 280px
+	#ig
+		text-align: center
+		.one
+			font-size: 28px
+			margin-top: 30px
+		.two
+			font-size: 20px
+			margin-top: 39px
+		.three
+			.bold
+				font-size: 18px
+				text-transform: uppercase
+			.light
+				font-size: 32px
+	footer
+		.row
+			background: #B4B2B8
+			padding: 10px
+			ul
+				list-style-type: none
+
+
+
+@import "media"
